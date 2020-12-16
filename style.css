@@ -1,0 +1,236 @@
+body
+{
+    color: #41584b; 
+    background-color: #E4FDE1;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+p
+{
+    line-height: 2;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+hr
+{
+    border: dotted #C7D3BF 6px;
+    border-bottom: none;
+    width: 50%;
+    margin: 50px auto ;
+}
+
+h1
+{
+    font-size: 3.5rem;
+    color:#66BFBF;
+    margin: 0 auto 0 auto;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+h2
+{
+    color: #788BFF;
+    font-size: 2rem;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h3
+{
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: #11999E;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+.First-Container
+{
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+}
+
+
+.Second-Container
+{
+   position: absolute;
+  
+}
+
+.intro
+{
+    width: 30%;
+    margin: auto;
+}
+
+.profile
+{
+    padding-top: 200px;
+}
+
+.circular
+{
+    border-radius: 100%;
+}
+
+
+.Third-Container
+{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+
+a
+{
+    color: #11999E;
+    margin: auto 20px;
+    text-decoration: none;
+}
+
+
+a:hover
+{
+    color: #EAF6F6;
+}
+
+
+.website-name
+{
+    color: #EAF6F6;
+    font-size: 0.8em;
+    padding: 20px 0;
+}
+
+.top-cloud
+{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+
+.bottom-cloud
+{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+
+.Programmar
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;;
+}
+
+.Communication
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+/* 
+The CSS float property specifies how an element should float.
+
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+
+float: right;
+
+This specifies that an image should float to the right in a text!!!
+
+float: left;
+
+specifies that an image should float to the left in a text
+
+*/
+
+
+.Communication-description
+{
+    clear: right;
+}
+
+/*
+
+The CSS clear property specifies what elements can float beside the cleared element and on which side.
+
+clear is like anti-float. Here, we intend to clear the right margin of the Communication-description paragraph.
+At the right side of this paragraph is a giphy. And we do not want anything in the right side of this paragraph.
+So, with clear: right; command the paragraph shifts down and the right margin gets cleared.
+
+clear: right;
+
+This clears the float to the right. Means that no floating elements are allowed on the right side (of the div)
+
+*/
+
+
+.contact-message
+{
+    width: 40%;
+    margin: 30px auto 50px;
+}
+
+.BUTTON_VCS 
+{
+
+    margin-bottom: 50px;
+
+
+        background: #11CDD4;
+        background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+        background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+        background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+        background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+        background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        height: 4px;
+        line-height: 4px;
+        color: #FFFFFF;
+        font-family: Arial;
+        width: 100px;
+        font-size: 14px;
+        font-weight: 100;
+        padding: 20px;
+        -webkit-box-shadow: 1px 1px 20px 0 #979797;
+        -moz-box-shadow: 1px 1px 20px 0 #979797;
+        box-shadow: 1px 1px 20px 0 #979797;
+        text-shadow: 1px 1px 20px #000000;
+        border: solid #337FED 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+}
+     
+     .BUTTON_VCS:hover 
+     {
+        border: solid #337FED 1px;
+        background: #30E3CB;
+        background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        text-decoration: none;
+     }
