@@ -107,6 +107,7 @@ a:hover
 
 .top-cloud
 {
+    background-image: url("CSS---My-Site/cloud.png");
     position: absolute;
     right: 400px;
     top: 50px;
